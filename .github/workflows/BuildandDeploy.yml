@@ -1,0 +1,26 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout master
+      uses: actions/checkout@v1
+      with:
+        submodules: true
+
+    - name: Hugo Deploy GitHub Pages
+      uses: benmatselby/hugo-deploy-gh-pages@master
+      env:
+        HUGO_VERSION: 0.69.1
+        TARGET_REPO: graykode/graykode.github.io
+        TARGET_BRANCH: deploy
+        TOKEN: ${{ secrets.TOKEN }}
+        CNAME: graykode.github.io
