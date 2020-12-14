@@ -20,11 +20,19 @@ jobs:
       with:
         go-version: '^1.13.1' # The Go version to download (if necessary) and use.
 
-    - name: Hugo Deploy GitHub Pages
-      uses: benmatselby/hugo-deploy-gh-pages@master
-      env:
-        HUGO_VERSION: 0.69.1
-        TARGET_REPO: graykode/graykode.github.io
-        TARGET_BRANCH: deploy
-        TOKEN: ${{ secrets.TOKEN }}
-        CNAME: graykode.github.io
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        extended: true
+
+    - name: Build Hugo Site
+      run: |
+        hugo -d docs
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: master
+        publish_dir: ./docs
