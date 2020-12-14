@@ -18,8 +18,7 @@ jobs:
 
     - uses: actions/setup-go@v2
       with:
-        stable: 'false'
-        go-version: '1.14.0-rc1' # The Go version to download (if necessary) and use.
+        go-version: '^1.13.1' # The Go version to download (if necessary) and use.
 
     - name: Hugo Deploy GitHub Pages
       uses: benmatselby/hugo-deploy-gh-pages@master
