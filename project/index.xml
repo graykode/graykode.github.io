@@ -5,7 +5,7 @@
     <link>https://graykode.github.io/project/</link>
       <atom:link href="https://graykode.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://graykode.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,10 +13,58 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://graykode.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://graykode.github.io/project/example/</guid>
+      <title>ALBERT-Pytorch</title>
+      <link>https://graykode.github.io/project/albert-pytorch/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/albert-pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distribution-is-all-you-need</title>
+      <link>https://graykode.github.io/project/distribution-is-all-you-need/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/distribution-is-all-you-need/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp-roadmap</title>
+      <link>https://graykode.github.io/project/nlp-roadmap/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/nlp-roadmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xlnet-Pytorch</title>
+      <link>https://graykode.github.io/project/xlnet-pytorch/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/xlnet-pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gpt-2-Pytorch</title>
+      <link>https://graykode.github.io/project/gpt-2-pytorch/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/gpt-2-pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp-tutorial</title>
+      <link>https://graykode.github.io/project/nlp-tutorial/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/nlp-tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modelsummary</title>
+      <link>https://graykode.github.io/project/modelsummary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/modelsummary/</guid>
       <description></description>
     </item>
     
