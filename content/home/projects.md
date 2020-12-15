@@ -27,6 +27,10 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: AI Product
+    tag: AI Product
+  - name: NLP
+    tag: NLP
   - name: Deep Learning
     tag: Deep Learning
   - name: Other
