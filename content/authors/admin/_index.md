@@ -14,26 +14,20 @@ organizations:
   url: https://github.com/graykode
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Language Modeling
+- Program Language NLP
+- AI Product Engineering
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: BS in Computer Science
+    institution: Kyung Hee University (Leave of absence for two years due to military service in Korea)
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -64,14 +58,18 @@ social:
 #   link: media/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "nlkey2022@gmail.com"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently studying in Kyunghee University as an undergraduate, and I plan to graduate in February 2022. I am always interested in what a good product is and what people want, and I think that development or research should proceed based on this thought. I am in the position of both AI Research and Engineer, but I would like research and engineering based on product.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Also, I am very interested in open source and development collaboration culture. As a good product and open source project, I would like to list my name on [BDFL(Benevolent Dictator for Life)](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life). And I hope my project can have a lot of impact on society and culture like Linux, Redis and Ethereum projects. Therefore, I consider ['One person's open source can lead new market with new technology'](https://github.com/graykode) as the motto.
 
+I am not afraid to grow up and I think I have to go out into a bigger well to see a wider market and view. Therefore, I value the industry experience. If your company want to grow with me, please contact me by [email](mailto:nlkey2022@gmail.com).
+
+<!--
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+-->

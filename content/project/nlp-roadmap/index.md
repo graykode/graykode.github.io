@@ -4,6 +4,7 @@ summary: ROADMAP(Mind Map) and KEYWORD for students those who have interest in l
 tags:
 - NLP
 date: "2019-09-01T00:00:00Z"
+weight: 2
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/nlp-roadmap"

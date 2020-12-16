@@ -4,6 +4,7 @@ summary: The basic distribution probability Tutorial for Deep Learning Researche
 tags:
 - Deep Learning
 date: "2019-09-01T00:00:00Z"
+weight: 3
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/distribution-is-all-you-need"

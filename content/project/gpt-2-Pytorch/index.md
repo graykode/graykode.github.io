@@ -4,6 +4,7 @@ summary: Simple Text-Generator with OpenAI gpt-2 Pytorch Implementation <img src
 tags:
 - NLP
 date: "2019-02-01T00:00:00Z"
+weight: 7
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/gpt-2-Pytorch"

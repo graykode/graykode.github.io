@@ -4,6 +4,7 @@ summary: Simple XLNet implementation with Pytorch Wrapper <img src="https://img.
 tags:
 - NLP
 date: "2019-07-01T00:00:00Z"
+weight: 8
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/xlnet-Pytorch"

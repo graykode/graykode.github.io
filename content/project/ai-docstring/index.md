@@ -4,6 +4,7 @@ summary: A tool that AI automatically recommends commit messages. <img src="http
 tags:
 - AI Product
 date: "2020-11-01T00:00:00Z"
+weight: 4
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/ai-docstring"

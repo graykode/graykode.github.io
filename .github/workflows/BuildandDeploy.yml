@@ -30,6 +30,7 @@ jobs:
       run: |
         hugo -d docs
         sed -i -r 's/featured(.+?)gif/featured.gif/g' docs/index.html
+        sed -i -r 's/class="btn-group flex-wrap"/class="btn-group flex-wrap" style="flex-wrap: unset !important; !important;"/g' docs/index.html
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

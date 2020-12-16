@@ -4,6 +4,7 @@ summary: Matorage is tensor(multidimensional matrix) object storage manager for 
 tags:
 - AI Product
 date: "2020-08-01T00:00:00Z"
+weight: 6
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/matorage"

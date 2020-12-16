@@ -50,8 +50,8 @@ experience:
         - I have gone through hundreds of pre-training processes and have experienced how to avoid CPU, GPU bottlenecks, how to use half precision, and how to manage large amounts of data. <br/><br/> 
 
       Task 2: Efficient modeling and lightweight model in pretrained language model
-        - We studied how to use Lample's Product Key Memory(PKM) efficiently, avoiding catastrophic drift in Masked-LM and fine-tuning tasks, and this study was found in EMNLP 2020.  
-        - I used knowledge distillation to lightweight the Korean RoBERTa model  <br/><br/>
+        - We studied how to use Lample's Product Key Memory(PKM) efficiently, avoiding catastrophic drift in Masked-LM and fine-tuning tasks, and this study was accepted findings of EMNLP 2020.  
+        - I have know-how about knowledge distillation to lightweight the Korean RoBERTa model  <br/><br/>
       
       Task 3: KorQuAD2.0 leaderBoard 1th(F1/EM:83.54/66.95) in 04/22/2020
         - KorQuAD 2.0 is a dataset similar to Google's Natural Question, which is a very difficult problem to find the correct answer on one page of Wikipedia. The answer can be a table, list, or paragraph.
