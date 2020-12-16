@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning | Academic</title>
+    <title>Deep Learning | graykode</title>
     <link>https://graykode.github.io/tag/deep-learning/</link>
       <atom:link href="https://graykode.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://graykode.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://graykode.github.io/images/icon_hu869d209e44e6b33afcc8b9cce9f23469_132612_512x512_fill_lanczos_center_2.png</url>
       <title>Deep Learning</title>
       <link>https://graykode.github.io/tag/deep-learning/</link>
     </image>
@@ -23,7 +23,7 @@
     <item>
       <title>modelsummary</title>
       <link>https://graykode.github.io/project/modelsummary/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://graykode.github.io/project/modelsummary/</guid>
       <description></description>
     </item>

@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://graykode.github.io/</loc>
+    <loc>https://graykode.github.io/project/nlp-tutorial/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://graykode.github.io/project/nlp-roadmap/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://graykode.github.io/project/distribution-is-all-you-need/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://graykode.github.io/project/ai-docstring/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://graykode.github.io/project/commit-autosuggestions/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://graykode.github.io/project/matorage/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://graykode.github.io/project/gpt-2-pytorch/</loc>
+    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://graykode.github.io/project/xlnet-pytorch/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://graykode.github.io/project/ai-docstring/</loc>
+    <loc>https://graykode.github.io/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,16 +98,6 @@
   </url>
   
   <url>
-    <loc>https://graykode.github.io/project/commit-autosuggestions/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://graykode.github.io/project/matorage/</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://graykode.github.io/project/kubefl/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
   </url>
@@ -88,17 +113,7 @@
   </url>
   
   <url>
-    <loc>https://graykode.github.io/project/distribution-is-all-you-need/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://graykode.github.io/tag/nlp/</loc>
-    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://graykode.github.io/project/nlp-roadmap/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,26 +123,12 @@
   </url>
   
   <url>
-    <loc>https://graykode.github.io/project/xlnet-pytorch/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://graykode.github.io/project/gpt-2-pytorch/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://graykode.github.io/project/nlp-tutorial/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <loc>https://graykode.github.io/project/modelsummary/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://graykode.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://graykode.github.io/project/modelsummary/</loc>
   </url>
   
 </urlset>
