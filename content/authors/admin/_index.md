@@ -64,11 +64,14 @@ email: "nlkey2022@gmail.com"
 highlight_name: false
 ---
 
-I am currently studying in Kyunghee University as an undergraduate, and I plan to graduate in February 2022. I am always interested in what a good product is and what people want, and I think that development or research should proceed based on this thought. I am in the position of both AI Research and Engineer, but I would like research and engineering based on product.
+I'm an undergraduate student at Kyunghee University majoring in Computer Engineering, expected to graduate in February 2022. 
+Two sets of work have defined my career interests: Research in NLP and AI Engineering.
 
-Also, I am very interested in open source and development collaboration culture. As a good product and open source project, I would like to list my name on [BDFL(Benevolent Dictator for Life)](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life). And I hope my project can have a lot of impact on society and culture like Linux, Redis and Ethereum projects. Therefore, I consider ['One person's open source can lead new market with new technology'](https://github.com/graykode) as the motto.
+**Research in NLP**  
+As an AI research engineer, My research has focused on Language Modeling to make a more smart AI model. Specifically, I am interested in building a language model to solve a real-world problem: (1) developing an efficient language model through model light-weighting such as knowledge distillation or augmented memory in the model. (2) Programming language NLP which can help people write code, docstring and commit message. I have the following views regarding research: Research should be based on service products. And transferring from the only R & D to a service product is an essential ability for AI researchers.
 
-I am not afraid to grow up and I think I have to go out into a bigger well to see a wider market and view. Therefore, I value the industry experience. If your company want to grow with me, please contact me by [email](mailto:nlkey2022@gmail.com).
+**AI Engineering**  
+As the model gets bigger, engineering's ability to manage many GPU machines is essential for training. Since I have the industry experience to deal with many GPU machines, I deeply understand how to handle many multi-node GPU with avoiding bottlenecks. I also managed data pipelines efficiently (See my open source project: [matorage](https://matorage.readthedocs.io/en/stable/)!) and designed scalable cloud infrastructure to service trained models.
 
 <!--
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
