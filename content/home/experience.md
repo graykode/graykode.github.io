@@ -62,7 +62,7 @@ experience:
     company_url: 'https://brunel.ai/'
     location: Mapo-gu, Republic of Korea
     date_start: '2020-09-14'
-    date_end: ''
+    date_end: '2021-06-30'
     description: |2-
       Brunel AI is a startup that provides ai search products to help people search for patents. It was a good experience to think about AI from a product perspective as the developed model was applied to the actual product and received feedback.   
       
@@ -70,4 +70,13 @@ experience:
         - Help transformation into AI tasks that can be realized as real products(For example, which data to collect will be meaningful in the long term or what AI task to solve the problem with)
         - Improve search quality : Developing a model that recommends a patent based on the user's input query
         - Building infrastructure for data pipeline and model serving
+  
+  - title: AI Research Engineer
+    company: Upstage AI
+    company_url: 'https://upstage.ai/'
+    location: Seongnam, Republic of Korea
+    date_start: '2021-07-19'
+    date_end: ''
+    description: |2-
+        
 ---
