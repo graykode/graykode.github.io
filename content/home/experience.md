@@ -74,7 +74,7 @@ experience:
   - title: AI Research Engineer
     company: Upstage AI
     company_url: 'https://upstage.ai/'
-    location: Seongnam, Republic of Korea
+    location: Yongin, Republic of Korea
     date_start: '2021-07-19'
     date_end: ''
     description: |2-
