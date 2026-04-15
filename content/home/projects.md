@@ -7,7 +7,7 @@ widget: portfolio
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 67
 
 title: Projects
 subtitle: ''
@@ -27,6 +27,8 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: DeFi
+    tag: DeFi
   - name: AI Product
     tag: AI Product
   - name: NLP

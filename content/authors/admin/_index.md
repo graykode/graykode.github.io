@@ -6,7 +6,7 @@ title: Tae Hwan Jung
 superuser: true
 
 # Role/position/tagline
-role: AI Engineer
+role: AI Engineer · Founding Engineer @ Clober
 
 # Organizations/Affiliations to show in About widget
 organizations:
