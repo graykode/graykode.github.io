@@ -1,6 +1,6 @@
 ---
 title: distribution-is-all-you-need
-summary: The basic distribution probability Tutorial for Deep Learning Researchers <img src="https://img.shields.io/github/stars/graykode/distribution-is-all-you-need.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
+summary: A tutorial on the basic probability distributions used in deep learning research. <img src="https://img.shields.io/github/stars/graykode/distribution-is-all-you-need.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
 tags:
 - Deep Learning
 date: "2019-09-01T00:00:00Z"

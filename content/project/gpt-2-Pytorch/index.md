@@ -1,6 +1,6 @@
 ---
 title: gpt-2-Pytorch
-summary: Simple Text-Generator with OpenAI gpt-2 Pytorch Implementation <img src="https://img.shields.io/github/stars/graykode/gpt-2-Pytorch.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
+summary: A simple PyTorch implementation of OpenAI's GPT-2 for text generation. <img src="https://img.shields.io/github/stars/graykode/gpt-2-Pytorch.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
 tags:
 - NLP
 date: "2019-02-01T00:00:00Z"

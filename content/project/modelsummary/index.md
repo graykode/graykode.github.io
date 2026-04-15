@@ -1,6 +1,6 @@
 ---
 title: modelsummary
-summary: All Model summary in PyTorch similar to `model.summary()` in Keras <img src="https://img.shields.io/github/stars/graykode/modelsummary.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
+summary: Model summaries for PyTorch, similar to `model.summary()` in Keras. <img src="https://img.shields.io/github/stars/graykode/modelsummary.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
 tags:
 - Deep Learning
 date: "2019-04-01T00:00:00Z"

@@ -1,6 +1,6 @@
 ---
 title: matorage
-summary: Matorage is tensor(multidimensional matrix) object storage manager for deep learning framework(Pytorch, Tensorflow V2, Keras)                                                              
+summary: An object storage manager for tensors (multidimensional matrices), built for deep learning frameworks (PyTorch, TensorFlow V2, Keras).                                                              
 tags:
 - AI Product
 date: "2020-08-01T00:00:00Z"

@@ -25,9 +25,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: BS in Computer Science
-    institution: Kyung Hee University (Leave of absence for two years due to military service in Korea)
-    year: 2015
+  - course: BS in Computer Engineering
+    institution: Kyung Hee University (including two years of leave for mandatory military service)
+    year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -64,14 +64,16 @@ email: "nlkey2022@gmail.com"
 highlight_name: false
 ---
 
-I'm an undergraduate student at Kyunghee University majoring in Computer Engineering, expected to graduate in February 2022. 
-Two sets of work have defined my career interests: Research in NLP and AI Engineering.
+I graduated from Kyung Hee University in February 2022 with a BS in Computer Engineering. Two threads have defined my career so far: **NLP research** and **AI engineering**.
 
-**Research in NLP**  
-As an AI research engineer, My research has focused on Language Modeling to make a more smart AI model. Specifically, I am interested in building a language model to solve a real-world problem: (1) developing an efficient language model through model light-weighting such as knowledge distillation or augmented memory in the model. (2) Programming language NLP which can help people write code, docstring and commit message. I have the following views regarding research: Research should be based on service products. And transferring from the only R & D to a service product is an essential ability for AI researchers.
+**NLP Research**
+My research has centered on language modeling with a bias toward problems that show up in real products. Two directions I have pursued:
+(1) Making language models more efficient — via knowledge distillation and augmented-memory architectures such as [Product Key Memory](https://arxiv.org/abs/1907.05242).
+(2) Programming-language NLP — models that help developers write code, docstrings, and commit messages.
+I believe research is strongest when it is anchored to a shipping product, and that the ability to move work from R&D into production is a core skill for AI researchers.
 
-**AI Engineering**  
-As the model gets bigger, engineering's ability to manage many GPU machines is essential for training. Since I have the industry experience to deal with many GPU machines, I deeply understand how to handle many multi-node GPU with avoiding bottlenecks. I also managed data pipelines efficiently (See my open source project: [matorage](https://matorage.readthedocs.io/en/stable/)!) and designed scalable cloud infrastructure to service trained models.
+**AI Engineering**
+As models get larger, the engineering needed to train them at scale — managing many GPU machines without CPU/GPU bottlenecks, running mixed precision correctly, and moving terabytes of training data efficiently — has become inseparable from the research itself. I have hands-on experience operating multi-node GPU clusters, designing efficient data pipelines (see my open-source project [matorage](https://matorage.readthedocs.io/en/stable/)), and building cloud infrastructure to serve trained models.
 
 <!--
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

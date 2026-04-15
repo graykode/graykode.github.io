@@ -1,6 +1,6 @@
 ---
 title: nlp-roadmap
-summary: ROADMAP(Mind Map) and KEYWORD for students those who have interest in learning NLP <img src="https://img.shields.io/github/stars/graykode/nlp-roadmap.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
+summary: A mind map and keyword roadmap for students interested in learning NLP. <img src="https://img.shields.io/github/stars/graykode/nlp-roadmap.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
 tags:
 - NLP
 date: "2019-09-01T00:00:00Z"

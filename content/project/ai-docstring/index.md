@@ -1,6 +1,6 @@
 ---
 title: ai-docstring
-summary: A tool that AI automatically recommends commit messages. <img src="https://img.shields.io/github/stars/graykode/ai-docstring.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
+summary: A VS Code extension that automatically generates Python docstrings using an NLP model. <img src="https://img.shields.io/github/stars/graykode/ai-docstring.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
 tags:
 - AI Product
 date: "2020-11-01T00:00:00Z"

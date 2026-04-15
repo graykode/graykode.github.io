@@ -1,6 +1,6 @@
 ---
 title: ALBERT-Pytorch
-summary: Pytorch Implementation of ALBERT(A Lite BERT for Self-supervised Learning of Language Representations) <img src="https://img.shields.io/github/stars/graykode/ALBERT-Pytorch.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
+summary: A PyTorch implementation of ALBERT (A Lite BERT for Self-Supervised Learning of Language Representations). <img src="https://img.shields.io/github/stars/graykode/ALBERT-Pytorch.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
 tags:
 - NLP
 date: "2019-09-01T00:00:00Z"

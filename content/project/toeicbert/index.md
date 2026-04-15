@@ -1,6 +1,6 @@
 ---
 title: toeicbert
-summary: Undergraduate Class Project, TOEIC(Test of English for International Communication) solving using pytorch-pretrained-BERT model <img src="https://img.shields.io/github/stars/graykode/toeicbert.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
+summary: Undergraduate class project — solving TOEIC (Test of English for International Communication) questions using pytorch-pretrained-BERT. <img src="https://img.shields.io/github/stars/graykode/toeicbert.svg" alt="text" style="margin&#58; 0px; height&#58; 22px; display&#58 inline;">                                                                            
 tags:
 - AI Product
 date: "2019-07-01T00:00:00Z"
