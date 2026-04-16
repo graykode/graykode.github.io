@@ -44,3 +44,47 @@
 #about.home-section {
   padding-bottom: 20px;
 }
+
+/* Statement section: Korean / English tabs */
+.statement-tabs {
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 1.5rem;
+
+  .nav-link {
+    color: #6c757d;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+
+    &:hover {
+      color: #2962ff;
+      border-color: transparent;
+    }
+
+    &.active {
+      color: #2962ff;
+      background: transparent;
+      border-bottom-color: #2962ff;
+    }
+  }
+}
+
+.statement-content {
+  max-width: 900px;
+  font-size: 0.82rem;
+  line-height: 1.65;
+
+  .statement-lead {
+    font-size: 0.92rem;
+    color: #333;
+    margin-bottom: 1.1rem;
+    padding: 0.55rem 0.85rem;
+    border-left: 3px solid #2962ff;
+    background: #f8f9fa;
+  }
+
+  p {
+    margin-bottom: 0.8rem;
+  }
+}

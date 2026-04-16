@@ -73,16 +73,38 @@ email: "nlkey2022@gmail.com"
 highlight_name: false
 ---
 
-I graduated from Kyung Hee University in February 2022 with a BS in Computer Engineering. Two threads have defined my career so far: **NLP research** and **AI engineering**.
+<ul class="nav nav-tabs statement-tabs" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="statement-ko-tab" data-toggle="tab" href="#statement-ko" role="tab" aria-controls="statement-ko" aria-selected="true">한국어</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="statement-en-tab" data-toggle="tab" href="#statement-en" role="tab" aria-controls="statement-en" aria-selected="false">English</a>
+  </li>
+</ul>
 
-**NLP Research**
-My research has centered on language modeling with a bias toward problems that show up in real products. Two directions I have pursued:
-(1) Making language models more efficient — via knowledge distillation and augmented-memory architectures such as [Product Key Memory](https://arxiv.org/abs/1907.05242).
-(2) Programming-language NLP — models that help developers write code, docstrings, and commit messages.
-I believe research is strongest when it is anchored to a shipping product, and that the ability to move work from R&D into production is a core skill for AI researchers.
+<div class="tab-content statement-content">
 
-**AI Engineering**
-As models get larger, the engineering needed to train them at scale — managing many GPU machines without CPU/GPU bottlenecks, running mixed precision correctly, and moving terabytes of training data efficiently — has become inseparable from the research itself. I have hands-on experience operating multi-node GPU clusters, designing efficient data pipelines (see my open-source project [matorage](https://matorage.readthedocs.io/en/stable/)), and building cloud infrastructure to serve trained models.
+  <div class="tab-pane fade show active" id="statement-ko" role="tabpanel" aria-labelledby="statement-ko-tab">
+
+<p class="statement-lead"><strong>어떤 도메인이든 빠른 learning curve로 핵심 문제를 풀어내는 것이 제 강점입니다.</strong></p>
+
+<p>"AI knows everything" 시대에 단순히 "정보를 많이 아는 것"은 더 이상 중요하지 않다고 생각합니다. 특히 연구 조직이 아닌, 프로덕트로 승부를 봐야 하는 스타트업에서 풀어야 하는 문제는 대부분 본인에게 익숙한 도메인에서 시작되지 않습니다. 따라서 저는 본인이 잘하는 문제를 푸는 것보다, <strong>시장성이 있고 꼭 풀어야 하는 문제를 능동적으로 찾아 푸는 방향성</strong>이 앞으로의 엔지니어에게 필요하다고 생각합니다. 이는 문제에 접근하는 방식, 유지보수를 고려한 아키텍처 설계, 그리고 프로덕트를 매니징하는 전 과정을 아우르는 역량입니다.</p>
+
+<p>저는 2.5년간 AI 엔지니어로 커리어를 시작했습니다 (당시 AI에 대한 제 역량은 <a href="https://github.com/graykode/graykode.github.io/tree/513a7f4" target="_blank" rel="noopener"><code>513a7f4</code></a>에서 확인하실 수 있습니다). 이후 블록체인 필드에서 풀고 싶은 문제를 발견했고, AI에서 했던 것과는 전혀 다른 분야를 zero base부터 시작했습니다. 4년 동안 <a href="https://www.linkedin.com/company/merekat-pte-ltd/about/" target="_blank" rel="noopener">훌륭한 팀원들</a>과 함께 3–4개월 주기로 프로덕트를 출시하며 6–7번의 프로덕트 사이클을 경험했습니다. 이 과정에서 엔지니어로서는 방향성은 맞지만 아직 개척되지 않은 문제들을 깊이 <a href="https://ethresear.ch/t/enabling-on-chain-order-matching-for-order-book-dexs-revisited-segmented-segment-trees-and-octopus-heaps-explained/15180" target="_blank" rel="noopener">고민</a>했고, 만든 프로덕트를 시장에서 성공시키기 위한 다양한 시도를 팀원들과 함께 해보았습니다.</p>
+
+<p>창업을 경험하기 이전과 이후의 저는 비교할 수 없을 만큼 달라졌습니다. 엔지니어로서의 주체성뿐 아니라, 문제를 풀어가는 과정에서의 복잡한 인간관계와 낙오의 경험을 통해 훨씬 깊게 성장할 수 있었습니다. 이 과정에서 가장 깊이 배운 덕목은 <strong>윤리성과 책임감</strong>입니다.</p>
+
+<p>다음 커리어가 어떤 방향일지는 아직 모릅니다. 하지만 엔지니어로서는 어떤 분야에서든 AI조차 풀지 못하는 어려운 문제를 프로덕트 관점에서 풀어나가고 싶고, 팀원으로서는 팀에 큰 위기가 닥쳤을 때 책임감 있게 그 무게를 질 수 있는 사람이 되고 싶습니다.</p>
+
+  </div>
+
+  <div class="tab-pane fade" id="statement-en" role="tabpanel" aria-labelledby="statement-en-tab">
+
+<p class="statement-lead"><em>(English version coming soon.)</em></p>
+
+  </div>
+
+</div>
 
 <!--
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
