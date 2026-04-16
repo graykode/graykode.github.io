@@ -4,6 +4,7 @@ summary: Natural Language Processing Tutorial for Deep Learning Researchers <img
 tags:
 - NLP
 date: "2019-01-01T00:00:00Z"
+stars: 14882
 weight: 1
 
 # Optional external URL for project (replaces project detail page).

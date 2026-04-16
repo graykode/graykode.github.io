@@ -4,6 +4,7 @@ summary: The Graph subgraph that indexes Clober DEX v2 on-chain events for analy
 tags:
 - DeFi
 date: "2024-03-20T00:00:00Z"
+stars: 2
 weight: 4
 
 external_link: "https://github.com/clober-dex/v2-subgraph"

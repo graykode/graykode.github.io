@@ -4,6 +4,7 @@ summary: A tutorial on the basic probability distributions used in deep learning
 tags:
 - Deep Learning
 date: "2019-09-01T00:00:00Z"
+stars: 1635
 weight: 3
 
 # Optional external URL for project (replaces project detail page).

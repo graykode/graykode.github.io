@@ -4,6 +4,7 @@ summary: Undergraduate class project — solving TOEIC (Test of English for Inte
 tags:
 - AI Product
 date: "2019-07-01T00:00:00Z"
+stars: 123
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/toeicbert"

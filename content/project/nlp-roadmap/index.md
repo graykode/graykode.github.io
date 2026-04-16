@@ -4,6 +4,7 @@ summary: A mind map and keyword roadmap for students interested in learning NLP.
 tags:
 - NLP
 date: "2019-09-01T00:00:00Z"
+stars: 3264
 weight: 2
 
 # Optional external URL for project (replaces project detail page).

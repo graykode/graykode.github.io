@@ -4,6 +4,7 @@ summary: Shared Solidity library used across the Clober protocol stack, includin
 tags:
 - DeFi
 date: "2023-02-13T00:00:00Z"
+stars: 10
 weight: 2
 
 external_link: "https://github.com/clober-dex/library"

@@ -4,6 +4,7 @@ summary: Federated Learning Infra Architecture on Kubernetes(EKS)
 tags:
 - AI Product
 date: "2019-11-01T00:00:00Z"
+stars: 2
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/kubeFL"

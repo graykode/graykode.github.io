@@ -4,6 +4,7 @@ summary: Clober DEX core Solidity contracts — the on-chain central limit order
 tags:
 - DeFi
 date: "2023-02-13T00:00:00Z"
+stars: 11
 weight: 1
 
 # Optional external URL for project (replaces project detail page).

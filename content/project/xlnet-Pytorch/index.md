@@ -4,6 +4,7 @@ summary: A simple XLNet implementation with a PyTorch wrapper. <img src="https:/
 tags:
 - NLP
 date: "2019-07-01T00:00:00Z"
+stars: 581
 weight: 8
 
 # Optional external URL for project (replaces project detail page).

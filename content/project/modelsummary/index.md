@@ -4,6 +4,7 @@ summary: Model summaries for PyTorch, similar to `model.summary()` in Keras. <im
 tags:
 - Deep Learning
 date: "2019-04-01T00:00:00Z"
+stars: 89
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/modelsummary"

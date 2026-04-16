@@ -4,6 +4,7 @@ summary: An object storage manager for tensors (multidimensional matrices), buil
 tags:
 - AI Product
 date: "2020-08-01T00:00:00Z"
+stars: 73
 weight: 6
 
 # Optional external URL for project (replaces project detail page).

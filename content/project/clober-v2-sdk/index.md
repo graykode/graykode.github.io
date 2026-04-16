@@ -4,6 +4,7 @@ summary: TypeScript SDK for Clober DEX v2 — the integration surface for extern
 tags:
 - DeFi
 date: "2024-04-01T00:00:00Z"
+stars: 9
 weight: 3
 
 external_link: "https://github.com/clober-dex/v2-sdk"

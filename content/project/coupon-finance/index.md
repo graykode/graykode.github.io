@@ -4,6 +4,7 @@ summary: Frontend for Coupon Finance — a fixed-rate DeFi lending protocol that
 tags:
 - DeFi
 date: "2023-07-20T00:00:00Z"
+stars: 4
 weight: 5
 
 external_link: "https://github.com/clober-dex/coupon.finance"

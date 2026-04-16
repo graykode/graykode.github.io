@@ -4,6 +4,7 @@ summary: A PyTorch implementation of ALBERT (A Lite BERT for Self-Supervised Lea
 tags:
 - NLP
 date: "2019-09-01T00:00:00Z"
+stars: 228
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/graykode/ALBERT-Pytorch"

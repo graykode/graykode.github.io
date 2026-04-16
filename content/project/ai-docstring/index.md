@@ -4,6 +4,7 @@ summary: A VS Code extension that automatically generates Python docstrings usin
 tags:
 - AI Product
 date: "2020-11-01T00:00:00Z"
+stars: 313
 weight: 4
 
 # Optional external URL for project (replaces project detail page).
