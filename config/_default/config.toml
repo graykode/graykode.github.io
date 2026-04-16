@@ -31,6 +31,7 @@ removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issu
 
 summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
 paginate = 10  # Number of items per page in paginated lists.
+timeout = "60s"
 enableEmoji = true
 enableRobotsTXT = true
 footnotereturnlinkcontents = "<sup>^</sup>"
