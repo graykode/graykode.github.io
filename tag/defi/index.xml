@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DeFi | graykode</title>
+    <link>https://graykode.github.io/tag/defi/</link>
+      <atom:link href="https://graykode.github.io/tag/defi/index.xml" rel="self" type="application/rss+xml" />
+    <description>DeFi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://graykode.github.io/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>DeFi</title>
+      <link>https://graykode.github.io/tag/defi/</link>
+    </image>
+    
+    <item>
+      <title>clober-dex/core</title>
+      <link>https://graykode.github.io/project/clober-core/</link>
+      <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/clober-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clober-dex/library</title>
+      <link>https://graykode.github.io/project/clober-library/</link>
+      <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/clober-library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clober-dex/v2-sdk</title>
+      <link>https://graykode.github.io/project/clober-v2-sdk/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/clober-v2-sdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clober-dex/v2-subgraph</title>
+      <link>https://graykode.github.io/project/clober-v2-subgraph/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/clober-v2-subgraph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clober-dex/coupon.finance</title>
+      <link>https://graykode.github.io/project/coupon-finance/</link>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://graykode.github.io/project/coupon-finance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
