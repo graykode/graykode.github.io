@@ -1,0 +1,53 @@
+/* ============================================================
+   Global container widening
+   ============================================================ */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+/* ============================================================
+   About widget: move Interests / Education below the avatar
+   in the left column, so the right column is bio-only.
+   ============================================================ */
+@media (min-width: 992px) {
+  #about .container > .row {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 30px;
+  }
+
+  #about .container > .row > .col-12.col-lg-4 {
+    grid-column: 1;
+    max-width: none;
+    flex: none;
+    width: auto;
+  }
+
+  #about .container > .row > .col-12.col-lg-8 {
+    display: contents;
+  }
+
+  #about .col-12.col-lg-8 > * {
+    grid-column: 2;
+  }
+
+  #about .col-12.col-lg-8 > .row {
+    grid-column: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #about .col-12.col-lg-8 > .row > .col-md-5,
+  #about .col-12.col-lg-8 > .row > .col-md-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

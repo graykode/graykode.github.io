@@ -9,25 +9,34 @@ superuser: true
 role: AI Engineer · Founding Engineer @ Clober
 
 # Organizations/Affiliations to show in About widget
-organizations:
-- name: graykode
-  url: https://github.com/graykode
+organizations: []
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
-# Interests to show in About widget
+# AI Skills to show in About widget
 interests:
-- Language Modeling
-- Program Language NLP
-- AI Product Engineering
+- LLM Distributed Pre-training
+- Knowledge Distillation & Compression
+- Programming NLP
+- "Document AI (LayoutLM, OCR)"
+- PyTorch / Python
+
+# Blockchain Skills to show in About widget
+skills:
+- Financial Modeling & DeFi Protocol Design
+- Solidity Development & Gas Optimization
+- "Web3 Full-stack (FE / BE)"
+- On-chain Data Indexing Pipeline
+- "Data-driven Market Making & Arbitrage"
+- TypeScript (main) / Rust
 
 # Education to show in About widget
 education:
   courses:
-  - course: BS in Computer Engineering
-    institution: Kyung Hee University (including two years of leave for mandatory military service)
-    year: 2022
+  - course: "BS in Computer Engineering, 2015 – 22"
+    institution: Kyung Hee University (incl. two years of military service)
+    year: ""
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

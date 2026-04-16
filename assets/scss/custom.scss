@@ -1,0 +1,46 @@
+/* Global container widening */
+@media (min-width: 992px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+/* About widget: avatar + bio side by side, 3-column row below */
+@media (min-width: 992px) {
+  #about .container > .row > .col-12.col-lg-4 {
+    flex: 0 0 28%;
+    max-width: 28%;
+  }
+
+  #about .container > .row > .col-12.col-lg-8 {
+    flex: 0 0 72%;
+    max-width: 72%;
+  }
+
+  /* Break inner row out of col-lg-8 to span full container width */
+  #about .col-12.col-lg-8 > .row {
+    width: calc(100% * 100 / 72);
+    margin-left: calc(100% * -28 / 72 - 15px);
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 0.5rem;
+  }
+
+  #about .col-12.col-lg-8 > .row > [class*="col-md"] {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}
+
+/* Reduce bottom padding on About section */
+#about.home-section {
+  padding-bottom: 20px;
+}
