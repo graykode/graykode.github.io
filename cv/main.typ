@@ -13,7 +13,7 @@
     #grid(
       columns: (1fr, 1fr, 1fr),
       align(left)[Tae Hwan Jung],
-      align(center)[Curriculum Vitae],
+      [],
       align(right)[#counter(page).display("1 / 1", both: true)],
     )
   ],
@@ -31,9 +31,13 @@
 #show link: it => text(fill: accent, underline(offset: 2pt, stroke: 0.4pt + accent)[#it])
 
 // --- Helpers ---
+#let divider-color = rgb("#d5dbe3")
+#let entry-count = state("entry-count", 0)
+
 #let section(title) = {
+  entry-count.update(0)
   // Wrap in sticky block so the section header never orphans at the bottom of a page
-  block(above: 1.1em, sticky: true)[
+  block(above: 2.4em, sticky: true)[
     #text(size: 12pt, weight: "bold", fill: accent, upper(title))
     #v(-0.2em)
     #line(length: 100%, stroke: 0.6pt + accent)
@@ -49,14 +53,19 @@
   keep-together: true,
   body,
 ) = {
-  // Bigger gap between companies, header sticks to the first paragraph of body
-  block(above: 2em, below: 1em, sticky: true)[
+  // Thin divider between entries in the same section (not under the section rule)
+  context if entry-count.get() > 0 {
+    block(above: 2em, below: 0em, sticky: true, line(length: 100%, stroke: 0.5pt + divider-color))
+  }
+  entry-count.update(n => n + 1)
+  // Header sticks to the first paragraph of body
+  block(above: 1.6em, below: 1em, sticky: true)[
     #grid(
       columns: (1fr, auto),
       column-gutter: 0.5em,
       [
-        #text(weight: "bold", size: 11pt)[#title] \
-        #text(fill: muted, size: 9.5pt, style: "italic")[#subtitle]
+        #text(weight: "bold", size: 12pt)[#title] \
+        #text(fill: accent, size: 10pt, weight: "semibold")[#subtitle]
       ],
       align(right)[
         #text(weight: "bold", size: 10pt)[#date] \
@@ -87,6 +96,14 @@
   ]
 }
 
+#let venue(name) = box(
+  fill: rgb("#fff1d6"),
+  inset: (x: 4pt, y: 2pt),
+  outset: (y: 1pt),
+  radius: 3pt,
+  text(fill: rgb("#b45309"), weight: "bold", size: 9.5pt)[#name],
+)
+
 #let project-line(name, summary, stars, url) = {
   block(above: 0.4em, below: 0.4em)[
     #grid(
@@ -107,7 +124,7 @@
 #align(center)[
   #text(size: 26pt, weight: "bold", fill: text-color)[Tae Hwan Jung]
   #v(-0.4em)
-  #text(size: 11pt, fill: muted)[AI Engineer · Founding Engineer \@ Clober]
+  #text(size: 11pt, fill: muted)[AI Engineer · Web3 Engineer]
   #v(-0.2em)
   #text(size: 9pt)[
     #link("mailto:nlkey2022@gmail.com")[nlkey2022\@gmail.com] #h(0.6em) #sym.bar.v #h(0.6em)
@@ -165,20 +182,53 @@
 )[]
 
 // =============================================================
+// PUBLICATIONS
+// =============================================================
+#section("Publications")
+
+#block(above: 0.6em, below: 0.6em)[
+  *Large Product Key Memory for Pretrained Language Models* \
+  Gyuwan Kim#super[\*], *Tae Hwan Jung*#super[\*] (#super[\*]equal contribution) \
+  #venue[Findings of EMNLP 2020] #h(0.5em) · #h(0.5em)
+  #link("https://www.aclweb.org/anthology/2020.findings-emnlp.362.pdf")[PDF]
+]
+
+#block(above: 1em, below: 1em, line(length: 100%, stroke: 0.5pt + divider-color))
+
+#block(above: 0.6em, below: 0.6em)[
+  *CommitBERT: Commit Message Generation Using Pre-Trained Programming Language Model* \
+  *Tae Hwan Jung* (sole author) \
+  #venue[ACL NLP4Prog Workshop 2021] #h(0.5em) · #h(0.5em)
+  #link("https://arxiv.org/pdf/2105.14242.pdf")[PDF] · #link("https://github.com/graykode/commit-autosuggestions")[Code]
+]
+
+// =============================================================
 // EXPERIENCE
 // =============================================================
 #section("Experience")
 
 #entry(
+  title: [Forward Deployed AI Engineer],
+  subtitle: [DSRV],
+  location: [Seoul, Republic of Korea],
+  date: [Jul 2026 -- Present],
+)[
+  - Researching x402-based payments for AI agents.
+  - Building on Canton and security token offering (STO) platforms.
+]
+
+#entry(
   title: [Founding Engineer, Core Protocol],
   subtitle: [Clober (Merekat)],
   location: [Gangnam-gu, Seoul],
-  date: [Apr 2022 -- Present],
+  date: [Apr 2022 -- May 2026],
   keep-together: false,
 )[
-  Clober is a DeFi protocol company --- "Building DeFi primitives that matter" --- building an order-book DEX on-chain. The core problem we worked on was bringing a decentralized order-book exchange fully on-chain and shipping it as an optimized, usable product. Over four years of founding-stage work I helped take Clober from zero to one across the full product surface --- protocol internals, backend, and frontend.
+  Built on-chain order-book DEX infrastructure for market makers and trading firms, taking it from zero to one over four years across protocol internals, backend, and frontend alongside co-founders #link("https://www.linkedin.com/in/kevin-hyeon-seok-son-5285a915a/")[Kevin Hyeon Seok Son] and #link("https://www.linkedin.com/in/jihyeok-choy-89bbb7158/")[Jihyeok Choy].
 
-  Beyond the engineering itself, what four years of founding-stage work at Clober gave me: hands-on zero-to-one product experience (planning, UI/UX, execution, launch); comprehensive domain knowledge in finance; and practical experience in DeFi architecture design and financial modeling. These are the parts I carry forward the most.
+  Beyond the engineering itself, what four years of founding-stage work at Clober gave me: hands-on zero-to-one product experience (planning, UI/UX, execution, launch); comprehensive domain knowledge in finance; and practical experience in DeFi architecture design and financial modeling. These are the lessons I carry forward.
+
+  #block(above: 1.2em, below: 0em, sticky: true)[#text(weight: "bold", fill: accent)[Launched projects:]]
 
   #task(
     title: [Clober v1 --- full-stack DEX],
@@ -186,7 +236,7 @@
     url: "https://clober.io",
     url-label: [clober.io],
   )[
-    - Built Clober v1 across the full stack (Smart contracts + Backend + Frontend).
+    - Built Clober v1 across the full stack (smart contracts, backend, and frontend).
     - On the contract side, implemented gas-optimized on-chain order matching using segmented segment trees and octopus heaps.
     - Write-up: #link("https://ethresear.ch/t/enabling-on-chain-order-matching-for-order-book-dexs-revisited-segmented-segment-trees-and-octopus-heaps-explained/15180")[ethresear.ch post] · #link("https://x.com/michael_lwy/status/1942484628025270411")[recap thread] · #link("https://github.com/clober-dex/benchmark/raw/master/result.png")[gas benchmarks]
   ]
@@ -195,7 +245,7 @@
     title: [DEX aggregator on Polygon zkEVM],
     date: [2023.03 -- 2023.06],
   )[
-    - Built a DEX aggregator for Polygon zkEVM in Rust, solo development, to support Clober's growth on the chain.
+    - Independently built a Rust DEX aggregator for Polygon zkEVM to support Clober's growth on the chain.
   ]
 
   #task(
@@ -210,26 +260,22 @@
 
   #task(
     title: [ETH/USDC vault strategy],
-    date: [2024.06 -- Present],
-    url: "https://base.clober.io",
-    url-label: [base.clober.io],
+    date: [2024.06 -- 2026.05],
   )[
-    - Responsible for the development and management of Clober's ETH/USDC vault strategy, end-to-end.
-    - Improved market-making strategy using Markov modeling.
-    - Built the data pipeline powering strategy backtesting and simulation.
-    - Designed a real-time on-chain event tracking pipeline (Ponder-style indexing → Grafana dashboards) for live strategy monitoring and data analysis.
-    - Optimized DEX ↔ Clober arbitrage to reduce market-maker losses.
-    - Launches: Monad mainnet (2025.11), Base chain vault (2026.01).
+    - Developed and managed Clober's ETH/USDC vault strategy end-to-end, scaling TVL to \$500K and closing with a \~6% cumulative return.
+    - Improved market making with Markov modeling and optimized DEX ↔ Clober arbitrage to cut market-maker losses.
+    - Built backtesting/simulation pipelines and real-time on-chain monitoring (Ponder-style indexing → Grafana).
+    - Launched on Monad mainnet (2025.11) and Base (2026.01).
   ]
 ]
 
 #entry(
-  title: [AI Research Engineer (Full-time)],
+  title: [AI Research Engineer],
   subtitle: [Upstage AI],
   location: [Yongin, Republic of Korea],
   date: [Jul 2021 -- Apr 2022],
 )[
-  Upstage AI is a Korean AI company focused on enterprise AI. I joined as a research engineer on the Document AI team during its early phase, working on the foundational models that later became part of Upstage's document-understanding product line.
+  Built core Document AI models as *an early team member* (\<40 employees at the time); they later became part of Upstage's enterprise document-understanding product line.
 
   #task(title: [LayoutLM training and fine-tuning])[
     - Trained and fine-tuned LayoutLM --- a multimodal transformer that jointly models page layout and text --- for Korean document understanding.
@@ -245,25 +291,25 @@
 ]
 
 #entry(
-  title: [AI Engineer (Contract)],
+  title: [AI Engineer],
   subtitle: [Brunel AI],
   location: [Mapo-gu, Republic of Korea],
   date: [Sep 2020 -- Jun 2021],
 )[
-  Brunel AI is a startup that builds AI-powered search products for patents. This was a formative experience in thinking about AI from a product perspective --- the models I trained shipped into the actual product and came back with real user feedback.
+  Trained and shipped patent-search models into a production AI search product and iterated on real user feedback. This taught me to think about AI from a product perspective.
 
-  - Helped scope research problems into AI tasks that could be realized as real product features (e.g., deciding which data to collect for long-term value, and framing user problems as concrete ML tasks).
+  - Helped scope research problems into AI tasks that could become product features (e.g., deciding which data to collect for long-term value, and framing user problems as concrete ML tasks).
   - Improved search quality by developing a model that recommends relevant patents from a user's input query.
   - Built the supporting infrastructure for the data pipeline and model serving.
 ]
 
 #entry(
-  title: [AI Research Internship],
+  title: [AI Research Engineer (Internship)],
   subtitle: [NAVER Clova AI],
   location: [Seongnam, Republic of Korea],
   date: [Dec 2019 -- Jun 2020],
 )[
-  NAVER Clova AI is one of Korea's leading AI research organizations. I worked in the LaRva team on Korean language modeling, which is where I built deep practical experience with large-scale training on distributed GPU clusters. In six months I was able to contribute to several tasks at once, thanks to the team's resources and mentorship.
+  Recruited by #link("https://www.linkedin.com/in/jung-woo-ha-b2782862/")[Jung-Woo Ha] to join the LaRva team. Trained Korean language models at scale on distributed GPU clusters and contributed to several research tracks within six months.
 
   #task(title: [Pretraining BERT / RoBERTa on distributed GPU cluster])[
     - Trained on up to 64 V100 GPUs with large-scale corpora in a distributed setup.
@@ -281,39 +327,21 @@
 ]
 
 #entry(
-  title: [AI Engineer Internship],
+  title: [AI Engineer (Internship)],
   subtitle: [Platfarm],
   location: [Mapo-gu, Republic of Korea],
   date: [Dec 2018 -- Feb 2019],
 )[
-  Platfarm is a startup that builds products that recommend emoji based on chat text. This was my first industry role and where I first learned how an engineering team collaborates day to day.
+  Built an emoji recommendation model from chat text --- my first industry role, where I learned how an engineering team works day to day.
 
   - Annotated and cleaned a raw chat corpus for training.
   - Built a sentiment-analysis-based emoji recommendation model.
 ]
 
 // =============================================================
-// PUBLICATIONS
-// =============================================================
-#section("Publications")
-
-#block(above: 0.6em, below: 0.6em)[
-  *Large Product Key Memory for Pretrained Language Models* \
-  Gyuwan Kim#super[\*], *Tae Hwan Jung*#super[\*] (#super[\*]equal contribution) \
-  #text(fill: muted, style: "italic")[Findings of EMNLP 2020] #h(0.5em) · #h(0.5em)
-  #link("https://www.aclweb.org/anthology/2020.findings-emnlp.362.pdf")[PDF] · #link("https://github.com/clovaai/pkm-transformers")[Code]
-]
-
-#block(above: 0.6em, below: 0.6em)[
-  *CommitBERT: Commit Message Generation Using Pre-Trained Programming Language Model* \
-  *Tae Hwan Jung* \
-  #text(fill: muted, style: "italic")[ACL NLP4Prog Workshop 2021] #h(0.5em) · #h(0.5em)
-  #link("https://arxiv.org/pdf/2105.14242.pdf")[PDF] · #link("https://github.com/graykode/commit-autosuggestions")[Code]
-]
-
-// =============================================================
 // EXTRACURRICULAR ACTIVITY
 // =============================================================
+#pagebreak(weak: true)
 #section("Extracurricular Activity")
 
 #entry(
@@ -331,71 +359,80 @@
   location: [Seoul, Republic of Korea],
   date: [Mar 2019 -- Nov 2019],
 )[
-  - Built a federated learning system with on-device TensorFlow training and a Kubernetes-based distributed training pipeline.
+  - Built a federated learning system with on-device TensorFlow training and a Kubernetes-based distributed training pipeline (#link("https://github.com/sortteam/kubeFL")[kubeFL]).
 ]
 
 // =============================================================
 // PROJECTS
 // =============================================================
-#section("Selected Projects")
+// Keep the whole section on one page
+#block(breakable: false)[
+  #section("Selected Projects")
 
-#project-line(
-  "nlp-tutorial",
-  "Natural Language Processing Tutorial for Deep Learning Researchers",
-  "14,882",
-  "https://github.com/graykode/nlp-tutorial",
-)
-#project-line(
-  "nlp-roadmap",
-  "Mind map and keyword roadmap for NLP learners",
-  "3,264",
-  "https://github.com/graykode/nlp-roadmap",
-)
-#project-line(
-  "distribution-is-all-you-need",
-  "Tutorial on basic probability distributions in deep learning",
-  "1,635",
-  "https://github.com/graykode/distribution-is-all-you-need",
-)
-#project-line(
-  "gpt-2-Pytorch",
-  "Minimal PyTorch implementation of OpenAI's GPT-2",
-  "1,013",
-  "https://github.com/graykode/gpt-2-Pytorch",
-)
-#project-line(
-  "xlnet-Pytorch",
-  "Simple XLNet implementation with a PyTorch wrapper",
-  "581",
-  "https://github.com/graykode/xlnet-Pytorch",
-)
-#project-line(
-  "commit-autosuggestions",
-  "AI that automatically recommends commit messages (CommitBERT)",
-  "389",
-  "https://github.com/graykode/commit-autosuggestions",
-)
-#project-line(
-  "ai-docstring",
-  "VS Code extension — automatic Python docstring generation via NLP",
-  "313",
-  "https://github.com/graykode/ai-docstring",
-)
-#project-line(
-  "matorage",
-  "Object storage manager for tensors (PyTorch, TensorFlow, Keras)",
-  "73",
-  "https://github.com/graykode/matorage",
-)
-#project-line(
-  "clober-dex/core",
-  "On-chain central limit order book engine (Solidity)",
-  "11",
-  "https://github.com/clober-dex/core",
-)
-#project-line(
-  "clober-dex/v2-sdk",
-  "TypeScript SDK for Clober DEX v2",
-  "9",
-  "https://github.com/clober-dex/v2-sdk",
-)
+  #project-line(
+    "nlp-tutorial",
+    "Natural language processing tutorial for deep learning researchers",
+    "14,882",
+    "https://github.com/graykode/nlp-tutorial",
+  )
+  #project-line(
+    "abtop",
+    "htop-like real-time monitor for AI coding agents (Claude Code, Codex CLI) in Rust",
+    "3,842",
+    "https://github.com/graykode/abtop",
+  )
+  #project-line(
+    "nlp-roadmap",
+    "Mind map and keyword roadmap for NLP learners",
+    "3,264",
+    "https://github.com/graykode/nlp-roadmap",
+  )
+  #project-line(
+    "distribution-is-all-you-need",
+    "Tutorial on basic probability distributions in deep learning",
+    "1,635",
+    "https://github.com/graykode/distribution-is-all-you-need",
+  )
+  #project-line(
+    "gpt-2-Pytorch",
+    "Minimal PyTorch implementation of OpenAI's GPT-2",
+    "1,013",
+    "https://github.com/graykode/gpt-2-Pytorch",
+  )
+  #project-line(
+    "xlnet-Pytorch",
+    "Simple XLNet implementation with a PyTorch wrapper",
+    "581",
+    "https://github.com/graykode/xlnet-Pytorch",
+  )
+  #project-line(
+    "commit-autosuggestions",
+    "AI that automatically recommends commit messages (CommitBERT)",
+    "389",
+    "https://github.com/graykode/commit-autosuggestions",
+  )
+  #project-line(
+    "ai-docstring",
+    "VS Code extension — automatic Python docstring generation via NLP",
+    "313",
+    "https://github.com/graykode/ai-docstring",
+  )
+  #project-line(
+    "matorage",
+    "Object storage manager for tensors (PyTorch, TensorFlow, Keras)",
+    "73",
+    "https://github.com/graykode/matorage",
+  )
+  #project-line(
+    "clober-dex/core",
+    "On-chain central limit order book engine (Solidity)",
+    "11",
+    "https://github.com/clober-dex/core",
+  )
+  #project-line(
+    "clober-dex/v2-sdk",
+    "TypeScript SDK for Clober DEX v2",
+    "9",
+    "https://github.com/clober-dex/v2-sdk",
+  )
+]
