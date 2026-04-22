@@ -165,6 +165,25 @@
 )[]
 
 // =============================================================
+// PUBLICATIONS
+// =============================================================
+#section("Publications")
+
+#block(above: 0.6em, below: 0.6em)[
+  *Large Product Key Memory for Pretrained Language Models* \
+  Gyuwan Kim#super[\*], *Tae Hwan Jung*#super[\*] (#super[\*]equal contribution) \
+  #text(fill: muted, style: "italic")[Findings of EMNLP 2020] #h(0.5em) · #h(0.5em)
+  #link("https://www.aclweb.org/anthology/2020.findings-emnlp.362.pdf")[PDF] · #link("https://github.com/clovaai/pkm-transformers")[Code]
+]
+
+#block(above: 0.6em, below: 0.6em)[
+  *CommitBERT: Commit Message Generation Using Pre-Trained Programming Language Model* \
+  *Tae Hwan Jung* \
+  #text(fill: muted, style: "italic")[ACL NLP4Prog Workshop 2021] #h(0.5em) · #h(0.5em)
+  #link("https://arxiv.org/pdf/2105.14242.pdf")[PDF] · #link("https://github.com/graykode/commit-autosuggestions")[Code]
+]
+
+// =============================================================
 // EXPERIENCE
 // =============================================================
 #section("Experience")
@@ -290,25 +309,6 @@
 
   - Annotated and cleaned a raw chat corpus for training.
   - Built a sentiment-analysis-based emoji recommendation model.
-]
-
-// =============================================================
-// PUBLICATIONS
-// =============================================================
-#section("Publications")
-
-#block(above: 0.6em, below: 0.6em)[
-  *Large Product Key Memory for Pretrained Language Models* \
-  Gyuwan Kim#super[\*], *Tae Hwan Jung*#super[\*] (#super[\*]equal contribution) \
-  #text(fill: muted, style: "italic")[Findings of EMNLP 2020] #h(0.5em) · #h(0.5em)
-  #link("https://www.aclweb.org/anthology/2020.findings-emnlp.362.pdf")[PDF] · #link("https://github.com/clovaai/pkm-transformers")[Code]
-]
-
-#block(above: 0.6em, below: 0.6em)[
-  *CommitBERT: Commit Message Generation Using Pre-Trained Programming Language Model* \
-  *Tae Hwan Jung* \
-  #text(fill: muted, style: "italic")[ACL NLP4Prog Workshop 2021] #h(0.5em) · #h(0.5em)
-  #link("https://arxiv.org/pdf/2105.14242.pdf")[PDF] · #link("https://github.com/graykode/commit-autosuggestions")[Code]
 ]
 
 // =============================================================
