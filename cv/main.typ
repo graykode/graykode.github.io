@@ -312,6 +312,29 @@
 ]
 
 // =============================================================
+// EXTRACURRICULAR ACTIVITY
+// =============================================================
+#section("Extracurricular Activity")
+
+#entry(
+  title: [KITRI Best of the Best 5th (Vulnerability Track)],
+  subtitle: [Hacking & Security Talent Training Program],
+  location: [Seoul, Republic of Korea],
+  date: [Jun 2016 -- Dec 2016],
+)[
+  - Selected for the national security talent program; completed the vulnerability analysis track.
+]
+
+#entry(
+  title: [Software MAESTRO 10th],
+  subtitle: [Software Developer Talent Training Program],
+  location: [Seoul, Republic of Korea],
+  date: [Mar 2019 -- Nov 2019],
+)[
+  - Built a federated learning system with on-device TensorFlow training and a Kubernetes-based distributed training pipeline.
+]
+
+// =============================================================
 // PROJECTS
 // =============================================================
 #section("Selected Projects")
